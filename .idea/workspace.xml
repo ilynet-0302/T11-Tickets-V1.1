@@ -4,36 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f937f0f1-bc2f-494a-b012-b26d2267bdb1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/T11-Tickets-V2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/AddEventCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/BookCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/BuyCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/CheckCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/CloseCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/ExitCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/FreeSeatsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/HelpCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/ListEventsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/OpenCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/ReportCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/SaveAsCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/SaveCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/UnbookCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/functionality/CommandManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/functionality/DataStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/functionality/Event.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/functionality/Hall.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/functionality/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/functionality/TicketSystem.java" afterDir="false" />
+    <list default="true" id="f937f0f1-bc2f-494a-b012-b26d2267bdb1" name="Changes" comment="Fully Functional with all commands plus an extra of listing events">
+      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "ilynet-0302"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "git@github.com:/ilynet-0302/T11-Tickets-V1.1.git",
+    "accountId": "02cb3102-f427-4d1a-b872-756a5c6222f2"
+  }
+}]]></component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -87,7 +72,7 @@
       <recent name="sit.tu_varna.functionality" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="Application.TicketSystem">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="T11-Tickets-V2" />
@@ -110,8 +95,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.TicketSystem" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -124,6 +109,30 @@
       <option name="presentableId" value="Default" />
       <updated>1724614885400</updated>
     </task>
+    <task id="LOCAL-00001" summary="Fully Functional with all commands plus an extra of listing events">
+      <option name="closed" value="true" />
+      <created>1724665330623</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1724665330623</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Fully Functional with all commands plus an extra of listing events" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fully Functional with all commands plus an extra of listing events" />
   </component>
 </project>
