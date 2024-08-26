@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f937f0f1-bc2f-494a-b012-b26d2267bdb1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/T11-Tickets-V2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/AddEventCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/BookCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/BuyCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/CheckCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/CloseCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/ExitCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/FreeSeatsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/HelpCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/ListEventsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/OpenCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/ReportCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/SaveAsCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/SaveCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/UnbookCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/functionality/CommandManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/functionality/DataStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/functionality/Event.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/functionality/Hall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/functionality/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sit/tu_varna/functionality/TicketSystem.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2lAFH8p8XNkbFQtwINSv3E2cqS8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.TicketSystem.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Legion/Desktop/TuVarnaHotel-main",
+    "onboarding.tips.debug.path": "C:/Users/Legion/IdeaProjects/T11-Tickets-V2/src/Main.java"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="sit.tu_varna" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="sit.tu_varna.commands" />
+      <recent name="sit.tu_varna.functionality" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="T11-Tickets-V2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TicketSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sit.tu_varna.functionality.TicketSystem" />
+      <module name="T11-Tickets-V2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sit.tu_varna.commands.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.TicketSystem" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f937f0f1-bc2f-494a-b012-b26d2267bdb1" name="Changes" comment="" />
+      <created>1724614885400</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1724614885400</updated>
+    </task>
+    <servers />
+  </component>
+</project>
