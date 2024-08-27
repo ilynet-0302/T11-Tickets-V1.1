@@ -57,13 +57,14 @@ public class Event implements Serializable {
     public boolean buy(int row, int seat) {
         String key = formatKey(row, seat);
         Ticket ticket = tickets.get(key);
-        if (ticket != null && ticket.isBooked() && !ticket.isPurchased()) {
+        if (ticket != null && !ticket.isPurchased()) {
             ticket.purchase();
+            System.out.println("Your ticket code is: " + ticket.getCode());
             return true;
         }
+        System.out.println("Error: Seat is already purchased.");
         return false;
     }
-
     public void printFreeSeats() {
         System.out.println("Free seats for " + name + " on " + date + ":");
         for (Ticket ticket : tickets.values()) {

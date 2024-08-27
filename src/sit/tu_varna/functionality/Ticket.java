@@ -39,17 +39,16 @@ public class Ticket implements Serializable {
     // Метод за закупуване на билет
     public void purchase() {
         this.purchased = true;
-        this.code = generateCode(); // Генериране на уникален код при покупка
+        this.booked = false;  // Ако билетът е бил резервиран, променяме статуса му на закупен
+        this.code = generateCode();  // Генериране на уникален код за билета
     }
 
-    // Метод за генериране на уникален код
-    private String generateCode() {
-        return "T" + row + seat + date.getTime() + eventName.hashCode();
-    }
-
-    // Метод за получаване на кода на билета
     public String getCode() {
         return code;
+    }
+
+    private String generateCode() {
+        return "TICKET-" + row + "-" + seat + "-" + date.getTime() + "-" + eventName.hashCode();
     }
 
     // Гетъри за атрибутите

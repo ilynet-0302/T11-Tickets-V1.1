@@ -95,7 +95,7 @@ public class DataStore implements Serializable {
     public Ticket getTicketByCode(String code) {
         for (Event event : events) {
             for (Ticket ticket : event.getTickets().values()) {
-                if (ticket.getCode().equals(code)) {
+                if (code.equals(ticket.getCode())) {
                     return ticket;
                 }
             }
