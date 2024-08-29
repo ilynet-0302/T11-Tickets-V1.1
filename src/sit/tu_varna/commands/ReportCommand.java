@@ -8,13 +8,32 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
 
+/**
+ * Команда за генериране на отчет за продадените билети в определен времеви период.
+ * Тази команда позволява на потребителя да види броя на продадените билети за събитията в определен диапазон от дати
+ * и, по избор, за конкретна зала.
+ */
 public class ReportCommand implements Command {
     private DataStore dataStore;
 
+    /**
+     * Конструктор за ReportCommand с подадения DataStore.
+     *
+     * @param dataStore инстанция на DataStore, която управлява събитията и залите
+     */
     public ReportCommand(DataStore dataStore) {
         this.dataStore = dataStore;
     }
 
+    /**
+     * Изпълнява командата за генериране на отчет.
+     * Очакваният формат на командата е: report <from> <to> [<hall>]
+     *
+     * @param args аргументите на командата, където:
+     *             - args[1] е началната дата на периода във формат "yyyy-MM-dd",
+     *             - args[2] е крайната дата на периода във формат "yyyy-MM-dd",
+     *             - args[3] (по избор) е името на залата, за която се генерира отчетът.
+     */
     @Override
     public void execute(String[] args) {
         if (args.length < 3) {

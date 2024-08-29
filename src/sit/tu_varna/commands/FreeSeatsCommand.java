@@ -7,13 +7,31 @@ import sit.tu_varna.functionality.Ticket;
 
 import java.text.SimpleDateFormat;
 
+/**
+ * Команда за извеждане на свободните места за дадено събитие.
+ * Тази команда позволява на потребителя да види състоянието на всички места в залата за конкретно събитие
+ * - дали са свободни, резервирани или продадени.
+ */
 public class FreeSeatsCommand implements Command {
     private DataStore dataStore;
 
+    /**
+     * Конструктор за FreeSeatsCommand с подадения DataStore.
+     *
+     * @param dataStore инстанция на DataStore, която управлява събитията, залите и билетите
+     */
     public FreeSeatsCommand(DataStore dataStore) {
         this.dataStore = dataStore;
     }
 
+    /**
+     * Изпълнява командата за извеждане на свободните места за събитие.
+     * Очакваният формат на командата е: freeseats <date> <name>
+     *
+     * @param args аргументите на командата, където:
+     *             - args[1] е датата на събитието във формат "yyyy-MM-dd",
+     *             - args[2] е името на събитието.
+     */
     @Override
     public void execute(String[] args) {
         if (args.length < 3) {

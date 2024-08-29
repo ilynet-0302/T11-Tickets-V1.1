@@ -65,17 +65,17 @@
 ### 3. Добавяне на събитие
 Използвайте командата `addevent <date> <hall> <name>`, например:
 ```bash
-addevent 02-03-1995 2 koncert
+addevent 2000-01-01 2 koncert
 ```
 ### 4. Резервация на билет
 Използвайте командата `book <row> <seat> <date> <name> <note>`, например:
 ```bash
-book 1 5 02-03-1995 koncert note1
+book 1 5 2000-01-01 koncert note1
 ```
 ### 5. Закупуване на билет
 Използвайте командата `buy <row> <seat> <date> <name>`, например:
 ```bash
-buy 1 5 02-03-1995 koncert
+buy 1 5 2000-01-01 koncert
 ```
 ### 6. Запазване на състоянието
 Запазете текущото състояние във файл с командата `saveas <filename>`, например:

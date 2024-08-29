@@ -6,13 +6,32 @@ import sit.tu_varna.functionality.Event;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * Команда за анулиране на резервация на билет за събитие.
+ * Тази команда позволява на потребителя да отмени резервацията на дадено място за конкретно събитие на определена дата.
+ */
 public class UnbookCommand implements Command {
     private DataStore dataStore;
 
+    /**
+     * Конструктор за UnbookCommand с подадения DataStore.
+     *
+     * @param dataStore инстанция на DataStore, която управлява събитията и залите
+     */
     public UnbookCommand(DataStore dataStore) {
         this.dataStore = dataStore;
     }
 
+    /**
+     * Изпълнява командата за анулиране на резервация.
+     * Очакваният формат на командата е: unbook <row> <seat> <date> <name>
+     *
+     * @param args аргументите на командата, където:
+     *             - args[1] е редът на мястото, което се анулира,
+     *             - args[2] е мястото, което се анулира,
+     *             - args[3] е датата на събитието във формат "yyyy-MM-dd",
+     *             - args[4] е името на събитието.
+     */
     @Override
     public void execute(String[] args) {
         if (args.length < 5) {

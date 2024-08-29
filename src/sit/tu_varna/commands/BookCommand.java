@@ -6,13 +6,33 @@ import sit.tu_varna.functionality.Event;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * Команда за резервиране на билет за събитие.
+ * Тази команда позволява на потребителя да резервира определено място за конкретно събитие на дадена дата.
+ */
 public class BookCommand implements Command {
     private DataStore dataStore;
 
+    /**
+     * Конструктор за BookCommand с подадения DataStore.
+     *
+     * @param dataStore инстанция на DataStore, която управлява събитията и залите
+     */
     public BookCommand(DataStore dataStore) {
         this.dataStore = dataStore;
     }
 
+    /**
+     * Изпълнява командата за резервиране на билет.
+     * Очакваният формат на командата е: book <row> <seat> <date> <name> <note>
+     *
+     * @param args аргументите на командата, където:
+     *             - args[1] е редът на мястото, което се резервира,
+     *             - args[2] е мястото, което се резервира,
+     *             - args[3] е датата на събитието във формат "yyyy-MM-dd",
+     *             - args[4] е името на събитието,
+     *             - args[5] е бележка, свързана с резервацията.
+     */
     @Override
     public void execute(String[] args) {
         if (args.length < 6) {

@@ -6,13 +6,32 @@ import sit.tu_varna.functionality.Event;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+/**
+ * Команда за закупуване на билет за събитие.
+ * Тази команда позволява на потребителя да закупи определено място за конкретно събитие на дадена дата.
+ */
 public class BuyCommand implements Command {
     private DataStore dataStore;
 
+    /**
+     * Конструктор за BuyCommand с подадения DataStore.
+     *
+     * @param dataStore инстанция на DataStore, която управлява събитията и залите
+     */
     public BuyCommand(DataStore dataStore) {
         this.dataStore = dataStore;
     }
 
+    /**
+     * Изпълнява командата за закупуване на билет.
+     * Очакваният формат на командата е: buy <row> <seat> <date> <name>
+     *
+     * @param args аргументите на командата, където:
+     *             - args[1] е редът на мястото, което се закупува,
+     *             - args[2] е мястото, което се закупува,
+     *             - args[3] е датата на събитието във формат "yyyy-MM-dd",
+     *             - args[4] е името на събитието.
+     */
     @Override
     public void execute(String[] args) {
         if (args.length < 5) {

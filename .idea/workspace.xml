@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f937f0f1-bc2f-494a-b012-b26d2267bdb1" name="Changes" comment="Fully Functional with all commands plus an extra of listing events">
+    <list default="true" id="f937f0f1-bc2f-494a-b012-b26d2267bdb1" name="Changes" comment="fixed comands: listevents&#10;and now generating unique ticket code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sit/tu_varna/commands/AddEventCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/AddEventCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sit/tu_varna/commands/BookCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/BookCommand.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sit/tu_varna/commands/BuyCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sit/tu_varna/commands/BuyCommand.java" afterDir="false" />
@@ -24,8 +26,9 @@
       <change beforePath="$PROJECT_DIR$/src/sit/tu_varna/functionality/CommandManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sit/tu_varna/functionality/CommandManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sit/tu_varna/functionality/DataStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sit/tu_varna/functionality/DataStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sit/tu_varna/functionality/Event.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sit/tu_varna/functionality/Event.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sit/tu_varna/functionality/Hall.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sit/tu_varna/functionality/Hall.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/sit/tu_varna/functionality/Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sit/tu_varna/functionality/Ticket.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" afterPath="$PROJECT_DIR$/test" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sit/tu_varna/functionality/TicketSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sit/tu_varna/functionality/TicketSystem.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +147,15 @@
       <option name="project" value="LOCAL" />
       <updated>1724666926020</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fixed comands: listevents&#10;and now generating unique ticket code">
+      <option name="closed" value="true" />
+      <created>1724770035891</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1724770035891</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -160,6 +171,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Fully Functional with all commands plus an extra of listing events" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fully Functional with all commands plus an extra of listing events" />
+    <MESSAGE value="fixed comands: listevents&#10;and now generating unique ticket code" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed comands: listevents&#10;and now generating unique ticket code" />
   </component>
 </project>
